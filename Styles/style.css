@@ -1,9 +1,15 @@
 body{
-    margin: 0
+    margin: 0;
+    background-image: url("../Images/fond-galaxy.jpg");
+    background-repeat: no-repeat;
+    background-position: top center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header{
-    background-color: #09c;
     padding: 10px;
-    
+     
 }
+
+
