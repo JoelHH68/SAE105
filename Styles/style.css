@@ -3,7 +3,6 @@ body{
     background-image: url("../Images/fond5.jpg");
     background-repeat: no-repeat;
     background-position: top center center;
-    background-attachment: fixed;
     background-size: cover;
     background-attachment: scroll;
 }
