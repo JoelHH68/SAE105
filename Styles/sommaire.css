@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     background-image: url("../Images/fond5.jpg");
@@ -5,14 +9,19 @@ body{
     background-position: top center center;
     background-size: cover;
     background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+    padding: 24px;
     font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.SAE{
+    margin-right: 45%;
+    margin-left: auto;
 }
 
 main{
@@ -29,10 +38,45 @@ main>div>div{
     border-radius: 16px;
     margin: 24px;
     padding: 32px;
-    max-width: ;
+    width: 150px;
+    text-align: center;
 }
 
 
 .Nom_SAE{
+    font-weight: bolder;
+    color: white
+}
 
+.Description{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Competence{
+    border: solid 2px white;
+    border-radius: 16px;
+    padding: 12px;
+    color: white;
+
+}
+
+.haut{
+    margin-left: 90%;
+    margin-bottom: 3%;
+}
+
+.haut>a{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.haut>a:hover{
+    border: solid 4px rgb(255, 255, 255);
+    border-radius: 100%;
+    padding: 5px;
+    height: 26px;
+    width: 26px;
 }
