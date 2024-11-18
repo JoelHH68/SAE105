@@ -1,1 +1,10 @@
-document.querySelector(".Nom_SAE").innerHTML = "<h1>Titre</h1>"
+let cles=Object.keys(SAE);
+console.log(cles)
+
+ for (let propriete in SAE) 
+    { 
+     console.log(propriete+" : "+SAE[propriete]);    
+     document.querySelector(".pour_js").innerHTML = propriete+" : "+SAE[propriete];
+    } 
+
+
