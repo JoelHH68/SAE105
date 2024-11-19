@@ -11,7 +11,7 @@ body{
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+ 
 header{
     padding: 24px;
     font-size: 20px;
@@ -20,7 +20,7 @@ header{
 }
 
 .SAE{
-    margin-right: 45%;
+    margin-right: 47%;
     margin-left: auto;
 }
 
@@ -33,7 +33,7 @@ main>div{
     justify-content: center;
 }
 
-main>div>div{
+.cases{
     border: solid 3px white;
     border-radius: 16px;
     margin: 24px;

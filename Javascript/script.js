@@ -1,10 +1,24 @@
+
 let cles=Object.keys(SAE);
-console.log(cles)
 
- for (let propriete in SAE) 
+ for (let i = 0; i<cles.length; i++) 
     { 
-     console.log(propriete+" : "+SAE[propriete]);    
-     document.querySelector(".pour_js").innerHTML = propriete+" : "+SAE[propriete];
-    } 
+     document.querySelector(".content").innerHTML += "<div class='cases'><div class='num_sae'></div><div class='titre_sae'></div><div class='competences_sae'></div></div>"
+    }
 
 
+const boites = document.querySelectorAll(".boite");
+
+boites.forEach((cases, indice)=>{
+   const cle = cles[indice];
+   const sae = SAE[cle];
+
+   if(sae){
+      cases.querySelector(".num_sae").innerHTML = cle;
+      console.log(cle)
+      cases.querySelector(".titre_sae").innerHTML = sae.titre;
+      cases.querySelector(".competences_sae").innerHTML = sae.competences.join(",");
+
+   }
+
+});
