@@ -7,7 +7,7 @@ let cles=Object.keys(SAE);
     }
 
 
-const boites = document.querySelectorAll(".boite");
+const boites = document.querySelectorAll(".cases");
 
 boites.forEach((cases, indice)=>{
    const cle = cles[indice];
@@ -15,9 +15,8 @@ boites.forEach((cases, indice)=>{
 
    if(sae){
       cases.querySelector(".num_sae").innerHTML = cle;
-      console.log(cle)
-      cases.querySelector(".titre_sae").innerHTML = sae.titre;
-      cases.querySelector(".competences_sae").innerHTML = sae.competences.join(",");
+      cases.querySelector(".titre_sae").innerHTML = sae["titre"];
+      cases.querySelector(".competences_sae").innerHTML = sae["compétences"];
 
    }
 

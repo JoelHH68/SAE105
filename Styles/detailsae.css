@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background-image: url("../Images/fond5.jpg");
+    background-repeat: no-repeat;
+    background-position: top center center;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
