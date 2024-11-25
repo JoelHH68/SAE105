@@ -25,7 +25,7 @@ boites.forEach(function(cases, indice){
    if(sae){
       cases.querySelector(".num_sae").innerHTML = cle;
       cases.querySelector(".titre_sae").innerHTML = sae["titre"];
-      cases.querySelector(".competences_sae").innerHTML = sae["compétences"];
+      cases.querySelector(".competences_sae").innerHTML = sae["compétences"].join("");
    }
 
 });
