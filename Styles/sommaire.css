@@ -1,7 +1,9 @@
+/*Ajout du scroll smooth*/
 html{
     scroll-behavior: smooth;
 }
 
+/*Style du body*/
 body{
     margin: 0;
     background-image: url("../Images/fond5.jpg");
@@ -11,7 +13,8 @@ body{
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
+
+/*Style du header*/
 header{
     padding: 24px;
     font-size: 20px;
@@ -24,14 +27,22 @@ header{
     margin-left: auto;
 }
 
-main{
-    margin-top: 3%
+/*Style pour les cases contenant les SAE*/
+
+a{
+    text-decoration: none;
 }
 
-main>div{
+.content{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 24px;              
+    max-width: 60%;         
+    margin: 0 auto;
+          
 }
+
 
 .cases{
     border: solid 3px white;
@@ -43,25 +54,26 @@ main>div{
 }
 
 
-.Nom_SAE{
+.num_sae{
     font-weight: bolder;
-    color: white
+    color: white;
 }
 
-.Description{
+.titre_sae{
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.Competence{
+.competences_sae{
     border: solid 2px white;
     border-radius: 16px;
     padding: 12px;
     color: white;
-
 }
 
+
+/*Style pour le bouton qui mène en haut de la page*/
 .haut{
     margin-left: 90%;
     margin-bottom: 3%;
@@ -70,13 +82,37 @@ main>div{
 .haut>a{
     border: solid 2px rgb(255, 255, 255);
     border-radius: 100%;
-    padding: 5px;
+    padding: 15px 7px 5px 7px;
 }
 
 .haut>a:hover{
     border: solid 4px rgb(255, 255, 255);
     border-radius: 100%;
-    padding: 5px;
+    padding: 15px 7px 5px 7px;
     height: 26px;
     width: 26px;
+}
+
+
+
+/*Style du footer*/
+footer{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    opacity: 45%;
+    margin-top: 100px;
+}
+
+.centre{
+    margin-top: auto;
+}
+
+.gauche{
+    text-align: center;
+    margin-top: auto;
 }

@@ -4,8 +4,8 @@ let content_HTML =""
 
  for (let i = 0; i<Num_SAE.length; i++) 
     {  
-     content_HTML += `
-     <a href="../detailsae.html?Num_SAE=${Num_SAE[i]}">
+     content_HTML += 
+     `<a href="../detailsae.html?Num_SAE=${Num_SAE[i]}">
          <div class="cases">
             <div class="num_sae"></div>
             <div class="titre_sae"></div>
@@ -29,3 +29,4 @@ boites.forEach(function(cases, indice){
    }
 
 });
+
