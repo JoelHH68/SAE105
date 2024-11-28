@@ -5,7 +5,8 @@ let Num_SAE = param.get("Num_SAE");
 if (SAE[Num_SAE]) {
     const sae = SAE[Num_SAE];
 
-    document.querySelector(".num_SAE").innerHTML = sae.titre;
+    document.querySelector("h1").innerHTML = "Voici la "+ Num_SAE;
+    document.querySelector(".titre").innerHTML = sae.titre;
     document.querySelector(".semestre").innerHTML = "Semestre : " + sae.semestre;
     document.querySelector(".description").innerHTML = sae.description;
 

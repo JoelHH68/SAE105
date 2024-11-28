@@ -51,6 +51,7 @@ a{
     padding: 32px;
     width: 150px;
     text-align: center;
+    background-color: rgba(200, 200, 200, 0.5);
 }
 
 
@@ -70,6 +71,7 @@ a{
     border-radius: 16px;
     padding: 12px;
     color: white;
+    background-color: rgba(100, 100, 100, 0.5);
 }
 
 
