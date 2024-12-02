@@ -23,26 +23,15 @@ header{
     justify-content: space-between;
 }
 
-.menu>div>a{
+a{
     text-decoration: none; 
     color: white; 
 }
 
-.menu>div>a:hover{
+a:hover{
     text-decoration: none; 
     color: #f8c32f;
 }
-
-.bouton-header>a {
-    text-decoration: none; 
-    color: white; 
-}
-
-.bouton-header>a:hover {
-    text-decoration: none; 
-    color: #f8c32f; 
-}
-
 
 .menu{
     display: flex;

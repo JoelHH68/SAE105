@@ -14,20 +14,37 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Style du header*/
+/*Header*/
 header{
     padding: 24px;
     font-size: 20px;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
-.SAE{
-    margin-right: 47%;
-    margin-left: auto;
+a{
+    text-decoration: none; 
+    color: white; 
+}
+
+a:hover{
+    text-decoration: none; 
+    color: #f8c32f;
+}
+
+
+.menu{
+    display: flex;
+    gap: 20px
 }
 
 /*Style pour les cases contenant les SAE*/
+
+h1{
+    color: white;
+    text-align: center;
+}
 
 a{
     text-decoration: none;
