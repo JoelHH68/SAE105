@@ -50,6 +50,15 @@ h1{
 }
 
 
+.titre{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center
+}
+
+
+
 /*Style du footer*/
 footer{
     display: flex;
