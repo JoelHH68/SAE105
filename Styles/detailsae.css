@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "WHAM"; /* Nom de la police que tu vas utiliser */
+    src: url("../fonts/space-wham.ttf") format("truetype"); /* Chemin vers le fichier */
+}
+
 body{
     margin: 0;
     background-image: url("../Images/fond5.jpg");
@@ -5,7 +10,7 @@ body{
     background-position: top center center;
     background-size: cover;
     background-attachment: scroll;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "WHAM";
     display: flex; 
     flex-direction: column;
     min-height: 100vh; 
@@ -27,7 +32,7 @@ a{
 
 a:hover{
     text-decoration: none; 
-    color: #f8c32f;
+    color: #916fa0;
 }
 
 /*Main*/

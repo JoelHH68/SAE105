@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "WHAM"; /* Nom de la police que tu vas utiliser */
+    src: url("../fonts/space-wham.ttf") format("truetype"); /* Chemin vers le fichier */
+}
+
 /*Ajout du scroll smooth*/
 html{
     scroll-behavior: smooth;
@@ -11,7 +16,7 @@ body{
     background-position: top center center;
     background-size: cover;
     background-attachment: scroll;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "WHAM";
 }
 
 /*Header*/
@@ -30,7 +35,7 @@ a{
 
 a:hover{
     text-decoration: none; 
-    color: #f8c32f;
+    color: #916fa0;
 }
 
 
@@ -66,7 +71,7 @@ a{
     border-radius: 16px;
     margin: 24px;
     padding: 32px;
-    width: 150px;
+    width: 200px;
     text-align: center;
     background-color: rgba(175, 175, 175, 0.5);
 }
@@ -76,7 +81,7 @@ a{
     border-radius: 16px;
     margin: 24px;
     padding: 32px;
-    width: 150px;
+    width: 200px;
     text-align: center;
     background-color: rgba(125, 125, 125, 0.5);
     box-shadow: 2px 2px 10px  black;
