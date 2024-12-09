@@ -1,9 +1,18 @@
 @font-face {
-    font-family: "WHAM"; /* Nom de la police que tu vas utiliser */
-    src: url("../fonts/space-wham.ttf") format("truetype"); /* Chemin vers le fichier */
+    font-family: "SM";
+    /* Nom de la police que tu vas utiliser */
+    src: url("../fonts/SM.TTF") format("truetype");
+    /* Chemin vers le fichier */
 }
 
-body{
+@font-face {
+    font-family: "WHAM";
+    /* Nom de la police que tu vas utiliser */
+    src: url("../fonts/space-wham.ttf") format("truetype");
+    /* Chemin vers le fichier */
+}
+
+body {
     margin: 0;
     background-image: url("../Images/fond5.jpg");
     background-repeat: no-repeat;
@@ -11,13 +20,13 @@ body{
     background-size: cover;
     background-attachment: scroll;
     font-family: "WHAM";
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 /*Header*/
-header{
+header {
     padding: 24px;
     font-size: 20px;
     color: white;
@@ -25,49 +34,62 @@ header{
     justify-content: space-between;
 }
 
-a{
-    text-decoration: none; 
-    color: white; 
+a {
+    text-decoration: none;
+    color: white;
 }
 
-a:hover{
-    text-decoration: none; 
+a:hover {
+    text-decoration: none;
     color: #916fa0;
 }
 
 /*Main*/
 
-.menu{
+.menu {
     display: flex;
     gap: 20px
 }
 
-main{
+main {
     flex: 1;
     color: white;
     padding: 100px;
 }
 
-main>div{
+main>div {
     padding-top: 20px;
 }
 
-h1{
-    text-align: center
+h1 {
+    text-align: center;
+    font-family: "SM";
 }
 
 
-.titre{
-    color: red;
+.titre {
+    color: #916fa0;
     font-weight: bolder;
     font-size: 20px;
-    text-align: center
+    text-align: center;
+}
+
+.double{
+    text-align: center;
+}
+
+.double>div>div:first-child {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "SM";
+    color: #916fa0;
 }
 
 
 
 /*Style du footer*/
-footer{
+footer {
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -77,17 +99,18 @@ footer{
     background-color: white;
     opacity: 45%;
     margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.centre{
+.centre {
     margin-top: auto;
 }
 
-.gauche{
+.gauche {
     text-align: center;
     margin-top: auto;
 }
 
-.droite{
+.droite {
     text-align: center;
 }
