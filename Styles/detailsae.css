@@ -6,6 +6,9 @@ body{
     background-size: cover;
     background-attachment: scroll;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
 /*Header*/
@@ -27,7 +30,7 @@ a:hover{
     color: #f8c32f;
 }
 
-
+/*Main*/
 
 .menu{
     display: flex;
@@ -35,10 +38,9 @@ a:hover{
 }
 
 main{
+    flex: 1;
     color: white;
-    padding-right: 100px;
-    padding-left: 100px; 
-    padding-bottom: 100px;
+    padding: 100px;
 }
 
 main>div{
@@ -69,7 +71,7 @@ footer{
     padding-bottom: 20px;
     background-color: white;
     opacity: 45%;
-    margin-top: 100px;
+    margin-bottom: 0;
 }
 
 .centre{
