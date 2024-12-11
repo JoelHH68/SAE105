@@ -27,11 +27,12 @@ body {
 
 /*Header*/
 header {
-    padding: 24px;
+    padding: 20px;
     font-size: 20px;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 
 a {
@@ -44,6 +45,7 @@ a:hover {
     color: #916fa0;
 }
 
+
 /*Main*/
 
 .menu {
@@ -54,12 +56,9 @@ a:hover {
 main {
     flex: 1;
     color: white;
-    padding: 100px;
+    padding: 50px ;
 }
 
-main>div {
-    padding-top: 20px;
-}
 
 h1 {
     text-align: center;
@@ -78,14 +77,29 @@ h1 {
     text-align: center;
 }
 
+.double>div{
+    margin-bottom: 50px
+}
+
 .double>div>div:first-child {
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: "SM";
+    font-size: 20px;
     color: #916fa0;
 }
 
+.double>div>div:last-child>div{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.double>div>div:last-child{
+    border: solid 2px white;
+    border-radius: 12px;
+    padding: 12px;
+    backdrop-filter: blur(10px)
+}
 
 
 /*Style du footer*/
