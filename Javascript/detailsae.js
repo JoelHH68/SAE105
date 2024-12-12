@@ -10,6 +10,8 @@ if (SAE[Num_SAE]) {
     document.querySelector(".semestre").innerHTML = sae.semestre;
     document.querySelector(".description").innerHTML = sae.description;
 
+    console.log(Num_SAE)
+
     let Liste_compétences = "";
     for (let compétence in sae.compétences) {
         Liste_compétences += `<div>${sae.compétences[compétence]}</div>`;
@@ -18,9 +20,9 @@ if (SAE[Num_SAE]) {
 
     let Liste_AC = "";
     for (let ac in sae.AC) {
-        Liste_AC += `<div>${ac} : ${sae.AC[ac]}</div>`;
+        Liste_AC += `<div>${ac} : ${sae.AC[ac]}</div>`;                                                                
     }
-    document.querySelector(".AC").innerHTML = Liste_AC;
+    document.querySelector(".AC").innerHTML = `<a href="Pdf/` +Num_SAE+`.pdf">`+ Liste_AC +`</a>`;
 
     let Liste_ressources = "";
     for (let ressource in sae.ressources) {
