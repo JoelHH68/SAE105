@@ -71,27 +71,30 @@ h1 {
     font-weight: bolder;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .double{
     text-align: center;
 }
 
-.double>div{
-    margin-bottom: 50px
-}
-
 .double>div>div:first-child {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 24px;
+    margin-bottom: 16px;
     font-family: "SM";
     font-size: 20px;
     color: #916fa0;
 }
 
-.double>div>div:last-child>div{
+.double>div>div:last-child>div, .double>div>div:last-child>a>div{
     margin-bottom: 16px;
     text-align: center;
+    color: white;
+}
+
+.double>.ACs>.AC:hover{
+    color: white;
+    box-shadow: 2px 2px 10px 5px black;
 }
 
 .double>div>div:last-child{
@@ -102,6 +105,7 @@ h1 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 
