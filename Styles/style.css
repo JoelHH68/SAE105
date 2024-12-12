@@ -107,7 +107,11 @@ header a:hover{
     color: #916fa0;
     box-shadow: 2px 2px 10px 8px;
     
-    transform: scale(1.5);
+    transform: scale(1.4);
+}
+
+.centrage-bouton{
+    text-align: center
 }
 
 
@@ -119,18 +123,23 @@ header a:hover{
 
 
 .haut>a{
-    border: solid 2px rgb(255, 255, 255);
-    border-radius: 100%;
-    padding: 12px 5px 5px 5px;
+    display: inline-flex;           
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;            
+    color: white;                  
+    border: 3px solid white;
 }
 
-.haut>a:hover{
-    border: solid 4px #916fa0;
-    border-radius: 100%;
-    padding: 12px 5px 5px 5px;
-    height: 26px;
-    width: 26px;
+.haut>a:hover{     
+    color: white;                  
+    border-color: #916fa0;
+    box-shadow: 0px 0px 10px 5px #916fa0; 
 }
+
+
 
 
 /*Style du footer*/
