@@ -1,3 +1,4 @@
+/*Ajout des polices d'écritures*/
 @font-face {
     font-family: "SM"; /* Nom de la police que tu vas utiliser */
     src: url("../fonts/SM.TTF") format("truetype"); /* Chemin vers le fichier */

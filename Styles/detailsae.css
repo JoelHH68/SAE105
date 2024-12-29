@@ -1,17 +1,15 @@
+/*Ajout des polices d'écritures*/
 @font-face {
     font-family: "SM";
-    /* Nom de la police que tu vas utiliser */
     src: url("../fonts/SM.TTF") format("truetype");
-    /* Chemin vers le fichier */
 }
 
 @font-face {
     font-family: "WHAM";
-    /* Nom de la police que tu vas utiliser */
     src: url("../fonts/space-wham.ttf") format("truetype");
-    /* Chemin vers le fichier */
 }
 
+/*Style du body*/
 body {
     margin: 0;
     background-image: url("../Images/fond5.jpg");
@@ -45,13 +43,13 @@ a:hover {
     color: #916fa0;
 }
 
-
-/*Main*/
-
 .menu {
     display: flex;
     gap: 20px
 }
+
+
+/*Main*/
 
 main {
     flex: 1;
