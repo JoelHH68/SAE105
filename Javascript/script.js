@@ -16,8 +16,8 @@ let content_HTML ="";
          </div>
       </a>`;
     }
-//Ajout du contenu HTML dans la chaine de caractère initialiser plus haut 
-document.querySelector(".content").innerHTML += content_HTML
+   //Ajout du contenu HTML dans la chaine de caractère initialiser plus haut 
+   document.querySelector(".content").innerHTML += content_HTML
 
 console.log(Num_SAE)
 
